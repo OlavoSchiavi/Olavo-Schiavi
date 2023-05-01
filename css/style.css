@@ -5,20 +5,20 @@ nav{
     width: 100%;
 }
 .foto-perfil{
-    width:450px;
+    width:400px;
     border-radius: 50%;
     box-shadow: 0px 0px 10000px 100px #132241;
     margin-right: 10px;
     position: relative;
-    left: 280px;
+    left:40%;
 }
 .titulo-primeiro-slide{
     font: normal bold 65px/1 "Arial";
     color: white;
     margin-right: 10px;
     position: relative;
-    top: 250px;
-    right: 280px;
+    top: 210px;;
+    right: 50%;
     text-align: left;
 }
 .primeiro-slide{
@@ -35,7 +35,7 @@ nav{
     padding: 5px 20px;
     border-radius:1000px;
     position: relative;
-    right: 270px;
+    left: -45%;
     bottom: 130px;
 }
 .botao-primeiro-slide-lik{
@@ -54,7 +54,7 @@ nav{
     font: normal bold 65px/1 "Arial";
     color: white;
     position: relative;
-    top: 300px;
+    top: 200px;
     left: 0px;
 }
 .text-segundo-slide{
@@ -62,7 +62,10 @@ nav{
     font: normal bold 20px/1 "Arial";
     color: white;
     position: relative;
-    top: 400px; 
+    top: 250px; 
+}
+.segundo-slide{
+    width: 100%;
 }
 
 
