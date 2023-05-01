@@ -1,0 +1,61 @@
+body{
+    background-color:#101728;
+}
+nav{
+    width: 100%;
+    background-color: white;
+    height: 100px;
+}
+.botao{
+    background: linear-gradient(to left, #FF3C5F, #9340FF);
+    border-radius: 1000px;
+    padding: 5px 20px;
+    display: inline-block;
+    text-align:center;
+    border: none;
+    width: 170px;
+    height: 50px;
+    cursor: pointer;
+}
+.botao-font{
+    color: rgb(20, 20, 20);
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font: normal bold 20px/1 "Arial";
+}
+button:focus {
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.3);
+  }
+button:active {
+    box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.3);
+  }
+.olv-font{
+    font: normal bold 70px/1 "Arial";
+    color: white;
+}
+.circle{
+    background-color: lightblue;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: -10px;
+    right: 100px;
+    border-radius: 10000px;
+    z-index: 0;
+    background: radial-gradient(circle, rgba(255,60,95,1) 0%, rgba(31,65,187,1) 30%, rgba(31,65,187,1) 37%, rgba(16,23,40,0) 66%);
+}
+.me{
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+    right: -100px;
+}
+.terceiro-slide-titulo{
+    font: normal bold 70px/1 "Arial";
+    color:#9340FF;
+}
+.terceiro-slide-texto{
+    font: normal bold 20px/1 "Arial";
+    color:white;
+}
+
